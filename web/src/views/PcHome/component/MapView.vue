@@ -14,6 +14,8 @@ const {t} = useI18n();
 
 const LAND_SCAPE = [335112, 617000, -582888, -301000];
 
+const api = new ApiService();
+
 const zoom = ref(2);
 const tiles = ref("");
 const playerList = ref([]);
@@ -22,6 +24,8 @@ const showPlayer = ref(true);
 const showBaseCamp = ref(true);
 const showBossTower = ref(true);
 const showFastTravel = ref(true);
+
+let timer = null;
 
 const toMapPosition = (position) => {
   const x = -256 + 256 * (position[0] - LAND_SCAPE[2]) / (LAND_SCAPE[0] - LAND_SCAPE[2]);
@@ -38,14 +42,33 @@ const ToPlayers = async (uid) => {
   playerToGuildStore().setUpdateStatus("players");
 };
 
+const refreshPlayer = async () => {
+  const { data } = await api.getOnlinePlayerList();
+  for (const i of data.value) {
+    for (const j of playerList.value) {
+      if(i.player_uid === j.player_uid) {
+        j.location_x = i.location_x;
+        j.location_y = i.location_y;
+        break;
+      }
+    }
+  }
+  timer = setTimeout(refreshPlayer, 5000);
+}
+
 onMounted(async () => {
-  const api = new ApiService();
   let res = await api.getPlayerList({});
   playerList.value = res.data.value;
   res = await api.getGuildList();
   guildList.value = res.data.value;
   res = await api.getServerToolConfig();
   tiles.value = res.data.value.map_tiles_url;
+
+  refreshPlayer();
+});
+
+onUnmounted(async () => {
+  clearTimeout(timer);
 });
 
 </script>
@@ -55,10 +78,10 @@ onMounted(async () => {
     <l-map
       ref="map"
       style="width: 100%; height: 100%;"
+      crs="Simple"
       v-model:zoom="zoom"
       :use-global-leaflet="false"
       :center="[-128, 128]"
-      crs="Simple"
       :min-zoom="0"
       :max-zoom="6"
       :options="{zoomControl: false, attributionControl: false}"
