@@ -513,6 +513,330 @@
         "Legend": {
             "name": "传说",
             "desc": "攻击力+20%，防御力+20%，移动速度+15%"
+        },
+        "Witch": {
+            "name": "魔女(+3)",
+            "description": "暗属性攻击伤害增加20% 冰属性攻击伤害增加20%"
+        },
+        "EternalFlame": {
+            "name": "永炎(+3)",
+            "description": "火属性攻击伤害增加30% 雷属性攻击伤害增加30%"
+        },
+        "Test_PalEgg_HatchingSpeed_Up": {
+            "name": "博爱主义者(+3)",
+            "description": "当分配到配种牧场时，产出蛋的速度将加快100%。"
+        },
+        "CoolTimeReduction_Up_1": {
+            "name": "沉着冷静(+3)",
+            "description": "主动技能的冷却时间缩短30% 攻击+10%"
+        },
+        "CoolTimeReduction_Up_2": {
+            "name": "急性子",
+            "description": "主动技能的冷却时间缩短15%"
+        },
+        "Stamina_Up_1": {
+            "name": "无限精力(+3)",
+            "description": "最大体力+50% ※此效果仅对可骑乘的帕鲁有效。"
+        },
+        "Stamina_Up_2": {
+            "name": "品学兼优",
+            "description": "最大体力+25% ※此效果仅对可骑乘的帕鲁有效。"
+        },
+        "SalePrice_Up_1": {
+            "name": "高贵(+3)",
+            "description": "改善交易价格+5%"
+        },
+        "SalePrice_Up_2": {
+            "name": "贵族",
+            "description": "改善交易价格+3%"
+        },
+        "Nocturnal": {
+            "name": "夜行性",
+            "description": "即使到夜晚也不会睡觉，会一直工作。"
+        },
+        "Alien": {
+            "name": "未知生物细胞",
+            "description": "攻击力+10% 火属性伤害减免15% 雷属性伤害减免15%"
+        },
+        "NonKilling": {
+            "name": "手下留情(-1)",
+            "description": "和平主义者。使攻击目标的生命值不会小于1。"
+        },
+        "Stamina_Down_1": {
+            "name": "家里蹲(-1)",
+            "description": "最大体力-25% ※此效果仅对可骑乘的帕鲁有效。"
+        },
+        "SalePrice_Down_1": {
+            "name": "寒酸(-1)",
+            "description": "改善交易价格-10%"
+        },
+        "PAL_SpiritualInst": {
+            "name": "精神不稳定",
+            "description": "工作速度 -10%"
+        },
+        "CollectItem_Egg": {
+            "name": "产蛋",
+            "description": ""
+        },
+        "CollectItem_Milk": {
+            "name": "产牛奶",
+            "description": ""
+        },
+        "CollectItem_Berries": {
+            "name": "采摘野莓",
+            "description": ""
+        },
+        "CollectItem_Sweets": {
+            "name": "生产点心",
+            "description": ""
+        },
+        "CollectItem_Money": {
+            "name": "招财猫",
+            "description": ""
+        },
+        "CollectItem_Wool_Alpaca": {
+            "name": "产羊毛",
+            "description": ""
+        },
+        "CollectItem_Wool_SheepBall": {
+            "name": "产羊毛",
+            "description": ""
+        },
+        "CollectItem_Wool_WhiteMoth": {
+            "name": "丝织",
+            "description": ""
+        },
+        "PAL_ElementPassive_Test": {
+            "name": "合作伙伴技能：属性被动",
+            "description": "攻击 10%"
+        },
+        "PAL_ElementPassive_1": {
+            "name": "PASSIVE_PAL_ElementPassive_1",
+            "description": "攻击 11%"
+        },
+        "PAL_ElementPassive_2": {
+            "name": "PASSIVE_PAL_ElementPassive_2",
+            "description": "攻击 13%"
+        },
+        "PAL_ElementPassive_3": {
+            "name": "PASSIVE_PAL_ElementPassive_3",
+            "description": "攻击 16%"
+        },
+        "PAL_ElementPassive_4": {
+            "name": "PASSIVE_PAL_ElementPassive_4",
+            "description": "攻击 20%"
+        },
+        "PAL_TribePassive_Test": {
+            "name": "合作伙伴技能：种族被动",
+            "description": "攻击 12%"
+        },
+        "PAL_TribePassive_1": {
+            "name": "PASSIVE_PAL_TribePassive_1",
+            "description": "攻击 13%"
+        },
+        "PAL_TribePassive_2": {
+            "name": "PASSIVE_PAL_TribePassive_2",
+            "description": "攻击 15%"
+        },
+        "PAL_TribePassive_3": {
+            "name": "PASSIVE_PAL_TribePassive_3",
+            "description": "攻击 19%"
+        },
+        "PAL_TribePassive_4": {
+            "name": "PASSIVE_PAL_TribePassive_4",
+            "description": "攻击 24%"
+        },
+        "HP_ACC_up1": {
+            "name": "提升体力Lv1",
+            "description": "HP 5%"
+        },
+        "HP_ACC_up2": {
+            "name": "提升体力Lv2",
+            "description": "HP 10%"
+        },
+        "HP_ACC_up3": {
+            "name": "提升体力Lv3",
+            "description": "HP 15%"
+        },
+        "Attack_ACC_up1": {
+            "name": "提升攻击Lv1",
+            "description": "攻击 5%"
+        },
+        "Attack_ACC_up2": {
+            "name": "提升攻击Lv2",
+            "description": "攻击 10%"
+        },
+        "Attack_ACC_up3": {
+            "name": "提升攻击Lv3",
+            "description": "攻击 15%"
+        },
+        "defense_ACC_up1": {
+            "name": "提升防御Lv1",
+            "description": "防御 10%"
+        },
+        "defense_ACC_up2": {
+            "name": "提升防御Lv2",
+            "description": "防御 20%"
+        },
+        "defense_ACC_up3": {
+            "name": "提升防御Lv3",
+            "description": "防御 30%"
+        },
+        "MaxInventoryWeight_up": {
+            "name": "提升负重上限Lv1",
+            "description": ""
+        },
+        "MaxInventoryWeight_up2": {
+            "name": "提升负重上限Lv2",
+            "description": ""
+        },
+        "MaxInventoryWeight_up3": {
+            "name": "提升负重上限Lv3",
+            "description": ""
+        },
+        "TemperatureResist_Heat1": {
+            "name": "耐暑Lv1",
+            "description": ""
+        },
+        "TemperatureResist_Heat2": {
+            "name": "耐暑Lv2",
+            "description": ""
+        },
+        "TemperatureResist_Heat3": {
+            "name": "耐暑Lv3",
+            "description": ""
+        },
+        "TemperatureResist_Cold1": {
+            "name": "耐寒Lv1",
+            "description": ""
+        },
+        "TemperatureResist_Cold2": {
+            "name": "耐寒Lv2",
+            "description": ""
+        },
+        "TemperatureResist_Cold3": {
+            "name": "耐寒Lv3",
+            "description": ""
+        },
+        "WorkSpeed_ACC_up1": {
+            "name": "高速工作Lv1",
+            "description": "工作速度 10%"
+        },
+        "WorkSpeed_ACC_up2": {
+            "name": "高速工作Lv2",
+            "description": "工作速度 15%"
+        },
+        "WorkSpeed_ACC_up3": {
+            "name": "高速工作Lv3",
+            "description": "工作速度 20%"
+        },
+        "ElementResist_Normal_1": {
+            "name": "减轻无属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Fire_1": {
+            "name": "减轻火属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Aqua_1": {
+            "name": "减轻水属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Thunder_1": {
+            "name": "减轻雷属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Leaf_1": {
+            "name": "减轻草属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Ice_1": {
+            "name": "减轻冰属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Earth_1": {
+            "name": "减轻地属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Dark_1": {
+            "name": "减轻暗属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Dragon_1": {
+            "name": "减轻龙属性伤害Lv1",
+            "description": ""
+        },
+        "ElementResist_Normal_2": {
+            "name": "减轻无属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Fire_2": {
+            "name": "减轻火属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Aqua_2": {
+            "name": "减轻水属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Thunder_2": {
+            "name": "减轻雷属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Leaf_2": {
+            "name": "减轻草属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Ice_2": {
+            "name": "减轻冰属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Earth_2": {
+            "name": "减轻地属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Dark_2": {
+            "name": "减轻暗属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Dragon_2": {
+            "name": "减轻龙属性伤害Lv2",
+            "description": ""
+        },
+        "ElementResist_Normal_3": {
+            "name": "减轻无属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Fire_3": {
+            "name": "减轻火属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Aqua_3": {
+            "name": "减轻水属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Thunder_3": {
+            "name": "减轻雷属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Leaf_3": {
+            "name": "减轻草属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Ice_3": {
+            "name": "减轻冰属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Earth_3": {
+            "name": "减轻地属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Dark_3": {
+            "name": "减轻暗属性伤害Lv3",
+            "description": ""
+        },
+        "ElementResist_Dragon_3": {
+            "name": "减轻龙属性伤害Lv3",
+            "description": ""
         }
     },
     "ja": {
